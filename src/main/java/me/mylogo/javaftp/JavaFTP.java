@@ -35,21 +35,6 @@ public class JavaFTP extends Application {
 
     public static void main(String[] args) throws Exception {
         launch(args);
-//            FTPClientWrapper wrapper = new FTPClientWrapper("ftp.bukkit-dev.net", 21);
-//            wrapper.login("u743641551", "E0t4l3XtOdlurk07fo");
-//            RemoteFileLocation remote = new RemoteFileLocation(wrapper, "", "");
-
-//            ISimpleFile file = new RemoteSimpleFile(remote, "Test.txt", "");
-//            OutputStream out = file.getFileOutputStream();
-
-//            JFileChooser chooser = new JFileChooser();
-//            chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-//            chooser.showOpenDialog(null);
-//            File root = chooser.getSelectedFile();
-//
-//            RemoteSimpleFile remoteFile = new RemoteSimpleFile(remote, "", "test.txt");
-//            LocalSimpleFile localFile = new LocalSimpleFile(root);
-//            remoteFile.fillMeFrom(localFile.getFileInputStream());
 
     }
 
