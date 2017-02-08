@@ -56,10 +56,7 @@ public class JavaFTP extends Application {
     public void start(Stage primaryStage) throws Exception {
         instance = this;
         initJavaFTP();
-        Parent root = GuiUtil.loadFxml("application.fxml");
-        Scene scene = new Scene(root);
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        //TODO: Add GUI
     }
 
     private void initJavaFTP() {
