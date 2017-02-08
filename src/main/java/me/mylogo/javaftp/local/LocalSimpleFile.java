@@ -13,7 +13,7 @@ public class LocalSimpleFile extends SimpleFile {
 
     public LocalSimpleFile(LocalFileLocation fileLocation, File file) {
         super(fileLocation, file.getName(), file.getParentFile().getAbsolutePath(), file.isDirectory());
-        System.out.println("ABSOLUTE:" + file.getAbsolutePath());
+        System.out.println("ABSOLUTE:" + file.getAbsolutePath()); //Temporary debug messages
         System.out.println("PARENT:" + file.getParentFile().getAbsolutePath());
         System.out.println("NAME:" + getName());
         this.file = file;

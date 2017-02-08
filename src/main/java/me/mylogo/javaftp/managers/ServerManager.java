@@ -19,7 +19,6 @@ public class ServerManager implements JsonSerializable {
 
     public ServerManager() {
         serverList = new ArrayList<>();
-        serverList.add(new MyServer("Temp", "host.host", 88, "uu", "pw"));
     }
 
     public ServerManager(JsonObject json) {
